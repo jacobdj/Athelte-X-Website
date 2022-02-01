@@ -1,0 +1,50 @@
+.card-body{
+    color:black;
+}
+
+.copy p{
+      text-align: center;
+}
+
+.contact a{
+        color: black;
+        
+}
+
+.svg{
+    text-align: center;
+}
+
+.svg a{
+    color: black;
+}
+
+.card-text{
+    text-align: left;
+}
+
+.banner img{
+    margin-left: 20px;
+
+}
+.con{
+    background-color: lightslategray;
+
+}
+
+.equi{
+    margin-left: 10px;
+}
+
+.shop1{
+    margin-top: 150px;
+}
+
+.cycle{
+
+    text-align: center;
+}
+
+body{
+    background-color: grey;
+}

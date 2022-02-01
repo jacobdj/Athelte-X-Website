@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Animation in jquery</title>
+        <script src="js/jquery.min.js"> </script>
+
+        <script>
+            $(document).ready(function(){
+                $('#sh').click(function(){
+                  var type = $('#pwd').attr('type')
+                  if(type == 'password'){
+                      $('#pwd').attr('type','text');
+                      $('#sh').html('hide');
+                  }else{
+                      $('pwd').attr('type','password');
+                      $('#sh').html('show');
+                  } 
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        Password <input type="password" id="pwd" name="pwd"/> <button id="sh">show</button>
+    </body>
+</html>

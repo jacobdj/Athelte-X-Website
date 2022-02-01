@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Hover</title>
+        <script src="js/jquery.min.js"></script>
+        <script>
+            $(function(){
+           $('img').hover(function(){
+             $(this).attr('src','img/saiyan.png');
+            
+
+           },function(){
+            $(this).attr('src','img/normal.jpg'); 
+
+           });
+           });
+            
+        </script>
+        <style>
+            img{
+               padding-left:305px;
+               padding-top: 142px;
+           
+               
+            }
+
+           body{
+               background-image: url(img/back.jpg);
+           }
+           
+        </style>
+    </head>
+    <body>
+      
+        
+        <img src="img/normal.jpg" alt="goku"/>
+           
+    </body>
+</html>
